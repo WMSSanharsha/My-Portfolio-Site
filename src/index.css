@@ -17,6 +17,33 @@ body {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
+/* Typography */
+
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Maybe I will change later */
+}
+
+.headline-1 {
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+
+/* Hero Section */
+
+.container {
+  @apply px-4 mx-auto lg:px-8 pt-10 xl:max-w-6xl;
+}
+
+.img-box {
+  @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover {
+  @apply w-full h-full object-cover;
+}
+
 /* Menu Btn */
 
 .menu-btn {
