@@ -1,10 +1,12 @@
+import { ButtonPrimary, ButtonOutline } from "./Button";
+
 function Hero() {
   return (
     <section id="home" className="pt-28 lg:pt-36">
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
-            <figure className="img-box w-9 h-9 rounded-lg">
+            {/* <figure className="img-box w-9 h-9 rounded-lg">
               <img
                 src="/images/MyPortfolioPhoto-modified.png"
                 alt="Sakila Sanharsha Photo"
@@ -12,7 +14,7 @@ function Hero() {
                 height={40}
                 className="img-cover"
               />
-            </figure>
+            </figure> */}
 
             <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
@@ -25,7 +27,12 @@ function Hero() {
             Software Engineer
           </h2>
           <div className="flex items-center gap-3">
-            ButtonPrimary ButtonOutline
+            <ButtonPrimary label="Download CV" icon="download" />{" "}
+            <ButtonOutline
+              href="#about"
+              label="Scroll Down"
+              icon="arrow_downward"
+            />
           </div>
         </div>
 
