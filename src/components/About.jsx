@@ -23,7 +23,7 @@ function About() {
             creating visually appealing and highly functional websites. You can
             see some of the projects I've completed below. Cheers!!
           </p>
-          <div className="flex flex-wrap items-center gap-4 md:gap-7">
+          {/* <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => {
               return (
                 <div key={key}>
@@ -47,7 +47,7 @@ function About() {
               width={30}
               height={30}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
