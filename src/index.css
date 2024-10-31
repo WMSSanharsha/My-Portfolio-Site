@@ -44,6 +44,12 @@ body {
   @apply w-full h-full object-cover;
 }
 
+/* About Section */
+
+.section {
+  @apply pt-20 lg:pt-32;
+}
+
 /* Menu Btn */
 
 .menu-btn {
