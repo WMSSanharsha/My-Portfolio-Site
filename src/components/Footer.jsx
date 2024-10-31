@@ -50,6 +50,7 @@ function Footer() {
   return (
     <footer className="section">
       <div className="container">
+        <hr className="pb-10" />
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
             <h2 className="headline-1 mb-8 lg:max-w-[12ch]">

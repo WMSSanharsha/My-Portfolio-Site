@@ -5,10 +5,11 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import { ReactLenis } from "lenis/react";
 
 function App() {
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
@@ -18,7 +19,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   );
 }
 
