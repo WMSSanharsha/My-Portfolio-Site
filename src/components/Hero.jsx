@@ -32,7 +32,11 @@ function Hero() {
             </span>
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary
+              label="Download CV"
+              icon="download"
+              href="https://drive.usercontent.google.com/download?id=1JCBeVX7svdM-YbLdrxUTvFUnN-nnEObk&export=download&authuser=1&confirm=t&uuid=d4ac558c-a96e-4a1d-9f83-e8fe695d2bc9&at=AENtkXYza8NicX7Onnn_RaIVFgUw:1730361912053"
+            />
             <ButtonOutline
               href="#about"
               label="Scroll Down"

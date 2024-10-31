@@ -14,10 +14,6 @@ const sitemap = [
     href: "#work",
   },
   {
-    label: "Reviews",
-    href: "#reviews",
-  },
-  {
     label: "Contact me",
     href: "#contact",
   },
@@ -26,23 +22,19 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/WMSSanharsha",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
-  },
-  {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://www.linkedin.com/in/sakila-sanharsha/",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/_sakila_sanharsha_/",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    label: "HackerRank",
+    href: "https://www.hackerrank.com/profile/sakila_sanharsha",
   },
 ];
 
