@@ -53,7 +53,7 @@ const skillItem = [
 
   {
     imgSrc: "/images/mysqlimg.png",
-    label: "MySql",
+    label: "MySQL",
     desc: "Database",
   },
 
