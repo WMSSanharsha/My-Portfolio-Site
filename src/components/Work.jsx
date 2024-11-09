@@ -2,20 +2,10 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/FarAwayProject.png",
-    title: "Far Away Items Tracker App",
-    tags: ["React", "CSS", "Development"],
-    projectLink: "https://github.com/WMSSanharsha/Far-Away-Items-Tracker",
-  },
-  {
-    imgSrc: "/images/CatMemePurrfect.png",
-    title: "Meme Picker - Purrfect Meme Generator",
-    tags: ["JavaScript", "CSS"],
-    projectLink: "https://github.com/WMSSanharsha/Cat-Meme-Purrfect",
-  },
-  {
     imgSrc: "/images/git.png",
     title: "Git FindX App",
+    description:
+      "This project is a GitHub User Profile Viewer built with React. It allows users to search for GitHub users and view their profiles, including information such as followers, following, public repositories, and more. The application fetches data from the GitHub API and displays it in a user-friendly interface.",
     tags: [
       "React",
       "Github API",
@@ -27,8 +17,35 @@ const works = [
     projectLink: "https://github.com/WMSSanharsha/Git-Finder",
   },
   {
-    imgSrc: "/images/casaesttae.png",
+    imgSrc: "/images/FarAwayProject.png",
+    title: "Far Away Items Tracker App",
+    description:
+      "This project is a simple and interactive packing list application built with React. It allows users to add items to their packing list, manage the packed status, delete individual items, and clear the entire list. The app also provides a summary of the total items and the percentage of packed items.",
+    tags: ["React", "CSS", "Development"],
+    projectLink: "https://github.com/WMSSanharsha/Far-Away-Items-Tracker",
+  },
+  {
+    imgSrc: "/images/feedbackUI.png",
+    title: "Feedback UI",
+    description:
+      "This is a simple React application that allows users to submit feedback, view feedback statistics, and explore an about page. It utilizes React Router for navigation and context for state management.",
+    tags: ["React", "Development", "CSS"],
+    projectLink: "https://github.com/WMSSanharsha/Feedback-UI",
+  },
+  {
+    imgSrc: "/images/CatMemePurrfect.png",
+    title: "Meme Picker - Purrfect Meme Generator",
+    description:
+      "This project is a simple meme picker that lets users select a cat meme based on their current emotion, with an option to show only animated GIFs.",
+    tags: ["JavaScript", "CSS"],
+    projectLink: "https://github.com/WMSSanharsha/Cat-Meme-Purrfect",
+  },
+
+  {
+    imgSrc: "/images/casa.png",
     title: "Casa Estate",
+    description:
+      "This is a Real Estate Listing application built using React and Firebase. The app allows users to view property listings, share links, and contact landlords via email.",
     tags: [
       "Real Estate",
       "Development",
@@ -36,19 +53,16 @@ const works = [
       "Leaflet",
       "CSS",
       "React",
-      "Google Api",
+      "Google API",
     ],
     projectLink: "https://github.com/WMSSanharsha/Casa-Estate-App",
   },
-  {
-    imgSrc: "/images/feedbackUI.png",
-    title: "Feedback UI",
-    tags: ["React", "Development", "CSS"],
-    projectLink: "https://github.com/WMSSanharsha/Feedback-UI",
-  },
+
   {
     imgSrc: "/images/MovieApp.png",
     title: "Movie Search App",
+    description:
+      "Created a Movie search site using react where user can search, select, rate, and also view details about movies!",
     tags: ["React", "Development", "CSS", "OMDb API"],
     projectLink: "https://github.com/WMSSanharsha/UsePopcorn-Movie-App",
   },
@@ -60,18 +74,21 @@ function Work() {
       <div className="container">
         <h2 className="headline-2 mb-8">Projects I Have Done</h2>
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))]">
-          {works.map(({ imgSrc, title, tags, projectLink }, key) => {
-            return (
-              <ProjectCard
-                key={key}
-                imgSrc={imgSrc}
-                title={title}
-                tags={tags}
-                projectLink={projectLink}
-              />
-            );
-          })}
+        <div className="">
+          {works.map(
+            ({ imgSrc, title, description, tags, projectLink }, key) => {
+              return (
+                <ProjectCard
+                  key={key}
+                  imgSrc={imgSrc}
+                  title={title}
+                  description={description}
+                  tags={tags}
+                  projectLink={projectLink}
+                />
+              );
+            }
+          )}
         </div>
       </div>
     </section>
