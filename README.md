@@ -24,7 +24,7 @@ This is my personal portfolio website showcasing the projects I have developed. 
 
 ## Getting Started
 
-To view my portfolio, visit: [Your Portfolio Link](https://your-portfolio-link.com)
+To view my portfolio, visit: [Your Portfolio Link]([https://your-portfolio-link.com](https://sakila-sanharsha.netlify.app/))
 
 ## Contact
 
