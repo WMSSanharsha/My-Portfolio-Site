@@ -32,6 +32,24 @@ const works = [
     tags: ["React", "Development", "CSS"],
     projectLink: "https://github.com/WMSSanharsha/Feedback-UI",
   },
+
+  {
+    imgSrc: "/images/ticket.png",
+    title: "Support Ticket App",
+    description:
+      "A full-stack support ticket application (MERN) that allows users to create, view, and manage support tickets. Built with React, Redux, Node.js, and MongoDB, this app provides a seamless experience for users and admins to handle support requests efficiently.",
+    tags: [
+      "React",
+      "MERN Stack",
+      "ExpressJS",
+      "NodeJS",
+      "MonoDB",
+      "JWT",
+      "Authentication",
+    ],
+    projectLink: "https://github.com/WMSSanharsha/Support-Ticket-App",
+  },
+
   {
     imgSrc: "/images/CatMemePurrfect.png",
     title: "Meme Picker - Purrfect Meme Generator",
