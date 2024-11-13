@@ -43,7 +43,7 @@ const works = [
       "MERN Stack",
       "ExpressJS",
       "NodeJS",
-      "MonoDB",
+      "MongoDB",
       "JWT",
       "Authentication",
     ],

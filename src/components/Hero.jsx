@@ -35,7 +35,7 @@ function Hero() {
             <ButtonPrimary
               label="Download CV"
               icon="download"
-              href="https://drive.usercontent.google.com/download?id=1JCBeVX7svdM-YbLdrxUTvFUnN-nnEObk&export=download&authuser=1&confirm=t&uuid=d4ac558c-a96e-4a1d-9f83-e8fe695d2bc9&at=AENtkXYza8NicX7Onnn_RaIVFgUw:1730361912053"
+              href="https://drive.usercontent.google.com/download?id=1tGbQog1L8EBconpHfFpdptLyn2p1ONuY&export=download&authuser=1&confirm=t&uuid=9ec56b0d-dd3a-44cf-8ad3-c51251803c3e&at=AENtkXYJNmXN-bDp3XKFiSd8J3BT:1731488324650"
             />
             <ButtonOutline
               href="#about"
